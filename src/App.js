@@ -66,15 +66,19 @@ function App() {
   ));
 
   return (
-    <div className="container">
+    <div className="App">
+      <div className="App__container">
       {diceValues}
-      <h1 className="title">Tenzies</h1>
+      <h1 className="App__title">Tenzies</h1>
       <p className="instructions">Roll until all dice are the same.</p>
-      <div className="die--grid">{diceElements}</div>
-      <button type="button" className="rollBtn" onClick={rollDice}>
+      <div className="App__die--grid">{diceElements}</div>
+      <button type="button" className="App__rollBtn" onClick={rollDice}>
         {diceValues === true ? "You Won" : "Roll"}
       </button>
     </div>
+
+    </div>
+    
   );
 }
 
