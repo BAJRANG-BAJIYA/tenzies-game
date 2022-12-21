@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  padding: 10px;
 }
 
 .App {
@@ -10,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(13, 19, 32);
+  background-color: rgb(18, 24, 39);
   margin: 200px auto ;
 }
 
@@ -33,9 +34,12 @@ margin-bottom: 10px;
 }
 .App__Die {
   height: 40px;
-  width: 60px;
+  width: 40px;
+  background-color: #ffff;
   box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+  border-radius: 4px;
   line-height: 24px;
+  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   display: flex;
@@ -47,16 +51,18 @@ margin-bottom: 10px;
 .App__die--grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 30px;
+  padding: 5px;
+  grid-gap: 20px;
 }
 .App__rollBtn{
   background-color: #4e34f7;
   border: none;
   border-radius: 4px;
   height: 30px;
-  width: 14%;
+  width: 30%;
   color: azure;
   font-size: 16px;
   cursor: pointer;
-  margin: 20px 0;
+  margin: 10px 0;
+  padding: 5px ;
 }

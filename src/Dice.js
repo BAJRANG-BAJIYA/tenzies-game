@@ -6,7 +6,7 @@ const Dice = (props) => {
   };
 
   return (
-    <div className="die" style={styles} onClick={props.holdDice}>
+    <div className="App__die" style={styles} onClick={props.holdDice}>
       {props.value}
     </div>
   );
