@@ -66,7 +66,7 @@ function App() {
   ));
 
   return (
-    <main>
+    <div className="container">
       {diceValues}
       <h1 className="title">Tenzies</h1>
       <p className="instructions">Roll until all dice are the same.</p>
@@ -74,7 +74,7 @@ function App() {
       <button type="button" className="rollBtn" onClick={rollDice}>
         {diceValues === true ? "You Won" : "Roll"}
       </button>
-    </main>
+    </div>
   );
 }
 
